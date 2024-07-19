@@ -1,15 +1,28 @@
 body{
-	background-color: #deb887;
+	background-color:  #c3b091;
+	font-family: Garamond, serif;
 }
 
-h1, h3{
-	color: #002145;
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
 }
 
-.header{
-	text-align: center;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-.box{
-	text	
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} 
